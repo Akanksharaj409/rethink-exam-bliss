@@ -29,14 +29,18 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Examwali – Student Study Platform" },
+      { name: "description", content: "Examwali is a student-focused study platform providing mock tests, curated notes, exam countdowns, and learning resources for JEE, NEET, and CUET aspirants." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Examwali – Student Study Platform" },
+      { property: "og:description", content: "Examwali is a student-focused study platform providing mock tests, curated notes, exam countdowns, and learning resources for JEE, NEET, and CUET aspirants." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Examwali – Student Study Platform" },
+      { name: "twitter:description", content: "Examwali is a student-focused study platform providing mock tests, curated notes, exam countdowns, and learning resources for JEE, NEET, and CUET aspirants." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/add6f94a-420e-4170-9bb3-1c64e1526c49" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/add6f94a-420e-4170-9bb3-1c64e1526c49" },
     ],
     links: [
       {
